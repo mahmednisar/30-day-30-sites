@@ -1,0 +1,143 @@
+* {
+  font-family: 'Lato', sans-serif;
+  background-color: #fefbf7;
+  color: #322f2b;
+}
+
+.nav {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar>.container {
+  width: 90%;
+}
+
+.navbar-nav {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.navbar-brand {
+  font-family: 'Buda', cursive;
+  font-size: 3.5em;
+  letter-spacing: 10px;
+}
+
+#sale, #percentOff {
+  color: #8B0000;
+  background-color: transparent;
+}
+
+.navbar .nav > li > a {
+    text-decoration: none;
+    color: #808080;
+}
+
+ul.nav a:hover { 
+  background-color: #e0d7c5 !important; 
+
+}
+
+ul.nav a: focus {
+  background: #e0d7c5 !important;
+  box-shadow: none;
+}
+
+.section {
+  min-height: 800px;
+  overflow: hidden;
+  position: relative;
+  padding: 30px;
+  }
+
+#product {
+  background-color: #ffffff;
+  border: 1px;
+}
+
+#prodPhoto {
+  background-color: rgba(250,250,250, 0.0);
+}
+
+#prodTitle, #prodPrice, #percentOff {  
+  font-size: 2em;
+}
+
+#prodPrice, .sale {
+  font-weight: 300;
+}
+
+.custom-select {
+  padding-right:4px;
+  margin-right: 5px;
+}
+
+#select {
+  width: 70%;
+}
+
+.btn-primary {
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.btn-primary { 
+  color: #ffffff; 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn-add:hover, 
+.btn-add:focus, 
+.btn-add:active, 
+.btn-add.active, 
+.open .dropdown-toggle.btn-add { 
+  color: #ffffff; 
+  background-color: #4B4640; 
+  border-color: #000000; 
+} 
+ 
+.btn-add:active, 
+.btn-add.active, 
+.open .dropdown-toggle.btn-add { 
+  background-image: none; 
+} 
+ 
+.btn-add.disabled, 
+.btn-add[disabled], 
+fieldset[disabled] .btn-add, 
+.btn-add.disabled:hover, 
+.btn-add[disabled]:hover, 
+fieldset[disabled] .btn-add:hover, 
+.btn-add.disabled:focus, 
+.btn-add[disabled]:focus, 
+fieldset[disabled] .btn-add:focus, 
+.btn-add.disabled:active, 
+.btn-add[disabled]:active, 
+fieldset[disabled] .btn-add:active, 
+.btn-add.disabled.active, 
+.btn-add[disabled].active, 
+fieldset[disabled] .btn-add.active { 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn-add .badge { 
+  color: #000000; 
+  background-color: #ffffff; 
+}
+
+hr.style1{
+	border-top: 1px solid #8c8b8b;
+  width: 71%;
+  margin-left: 0;
+}
+
+#share {
+  padding-left: 14px;
+  font-size: 2em;
+  letter-spacing: 8px;
+}

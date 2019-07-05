@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #f4efeb;
+  font-family: 'Cardo', serif;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox > p {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.secTitle {
+  font-family: 'Alex Brush', cursive;
+  font-size: 3em;
+  font-weight: 500;
+  color: #321602;
+}
+
+.dishName {
+  font-weight: 600;
+  font-variant: small-caps;
+  font-size: 1.1em;
+}
+
+.dishDesc {
+  font-size: .9em;
+  font-weight:
+}
+
+.price, add {
+  text-align: right;
+}

@@ -1,0 +1,86 @@
+* {
+  color: #d6d6f5;
+  font-family: 'Josefin Slab', serif;
+  margin: 0px;
+  font-size: 1.07em;
+}
+
+body {
+  background-color: #bab6b6;
+}
+
+#cover {
+  position: relative;
+  left: 1%;
+  right: 5%;
+}
+
+#invite {
+  position: relative;
+  left: 1%;
+  right: 5%;
+  text-align: left;
+}
+
+.outer {
+  display: table;
+    position: relative;
+    height: 100%;
+    width: 80%;
+}
+
+.container {
+  background-color: #2b1a19;
+  border: 1px;
+  margins: auto;
+  height: 100vh;
+  
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+  height: 70vh;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
+
+img {
+  width: 100%;
+  max-width: 512px;
+  display: inline;
+  
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Jim Nightshade', cursive;
+  text-align: center;
+}
+
+span {
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 1.75em;
+}
+
+#date {
+  line-height: .7;
+  margin: 2% 0;
+  font-weight: bold;
+}
+
+.btn {
+   font-family: 'Josefin Slab', serif;
+  float: right;
+  color: #d6d6f5;
+  background-color: #2b3450;
+}
+
+#afterparty {
+  font-size: 0.75em;
+  font-family: 'Josefin Slab', serif;
+}

@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 100%;
+}
+body {
+  background: #fafff4;
+}
+
+.container {
+  max-width: 800px;
+}
+
+#header {
+  background-image: url(https://source.unsplash.com/user/gregbecker/-0_ww2ACIw8);
+  color: #E6FFF2;
+  text-shadow: 3 3 #ffffff;
+  font-family: 'Lancelot', serif;
+}
+
+#home {
+  margin-top: 2%;
+  width: 100%;
+}
+
+h2, h3 {
+  font-family: 'Lancelot', serif;
+  color: #072802;
+  font-weight: 500;
+}
+
+div.desc{
+    background-color: #fafff4;
+    bottom: 0;
+    color: #ffffff;
+  font-size: .5em;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  height: 16%;
+}
+
+.fix{
+    width: 100%;
+}
+
+#plays {
+  margin-top: 4%;
+}
+
+h4 {
+  font-family: 'Lancelot', serif;
+  font-weight: 900;
+}
+
+#home {
+  background: url(https://source.unsplash.com/user/forevercarrieon/U0_hlwXFLn0) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#home div {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.midsummer {
+  background-image: url(https://source.unsplash.com/user/chiro/JQ8-xG3kHjk);
+  color: #fafff4;
+  background-color: #072802;
+  text-shadow: 3 3 #072802;
+  padding-left:  1%;
+}
+
+.merchant {
+  background-image: url(https://source.unsplash.com/user/ripato/-4WfeqYNVOI);
+  background-color: #072802;
+  background-position: right bottom;
+  color: #fafff4;
+  text-shadow: 3 3 #000000;
+  padding-left:  1%;
+}
+
+.macbeth {
+  background-image: url(https://source.unsplash.com/user/hilesy/ZHF033ykCx8);
+  background-color: #072802;
+  background-position: right bottom;
+  color: #fafff4;  
+  padding-left:  1%;
+}
+
+.hamlet {
+  background-image: url(https://source.unsplash.com/user/averieclaire/xGy_DKmPYEk);
+  background-color: #072802;
+  background-position: right bottom;
+  color: #fafff4;  
+  text-shadow: 3 3 #000000;
+  padding-left: 1%;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+.fa {
+  font-size: 1.25em;
+  margin-right: 3%;
+  color: #072802;
+}

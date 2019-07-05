@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #EDE5D0;
+  font-family: Lato, sans-serif;
+  color: #000;
+    background-color: rgba(67, 95, 46, 0.6);
+  background-image:        url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Fundy_National_Park_of_Canada_10.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh; 
+}
+
+a.activities {
+  color: #001904;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BAE4A4;
+}
+
+a:visited {
+  color: #023d00
+}
+
+#header {
+    position: relative;
+    background: rgba(67, 95, 46, 0.4);
+  color: #fff;
+  font-family: 'Alegreya', serif;
+  line-height: 2;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+
+#header h1, h3 {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 6em;
+} 
+
+#header p, h3 {
+  font-family: Lato, sans-serif;
+  font-size: 1.75em;
+  text-decoration: none;
+  color: #fff;
+}
+
+#header p {
+  font-size: 1.4em;
+}
+
+.activities {
+    background: rgba(250, 250, 250, 1);
+  color: #000;
+  font-family: 'Alegreya', serif;
+  border-radius: 7px;
+  margin-top: 100px;
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexbox > div {
+  /*
+    1/3  - 3 columns per row
+    10px - spacing between columns 
+  */ 
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  width: calc(1/3*100% - (1 - 1/3)*10px);
+  max-width: 300px;
+  min-width:200px;
+}
+
+.flexbox > p {
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+
+.attrHeader {
+  width: 100%;
+  text-align: center;
+}
+
+strong {
+  text-transform: uppercase;
+}
+
+footer {
+  position: relative;
+	margin-top: 100px; /* negative value of footer height */
+	height: 100px;
+	clear:both;
+  background: rgba(250, 250, 250, .5);
+}
+
+a.footer {
+  color: #ffffff;
+}
+
+@media all and (max-width:100%) {
+  body img {
+    background-image:        url('https://upload.wikimedia.org/wikipedia/commons/c/cc/Fundy_National_Park_of_Canada_10.jpg');
+    background-size: contain;
+    height: 50%;
+  }
+  .flexbox {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+}

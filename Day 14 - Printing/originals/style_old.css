@@ -1,0 +1,93 @@
+/*Basic layout & CSS completed April 10, 2017*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: .25em;
+  color: #003b4c;
+}
+
+nav {
+  margin: auto;
+}
+
+.nav-link, .dropdown-item, #login, #register {
+  font-family: 'Roboto', sans-serif;
+  color: #609db4;
+}
+
+a:hover {
+  color: 	#8eb3c4;
+}
+
+a: visited {
+  color: #9574cb;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #006bad;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 0.8em;
+    font-size: 1.5em;
+}
+
+.currSpec {
+  color: #000000;
+  text-shadow: 4 4 #000000;
+  border-radius: 10px;
+    max-height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#currSpec1 {
+  background-image: url(https://source.unsplash.com/user/andozo/S2YssLw97l4);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  border: 5px solid #ffffff;
+    min-height: 200px;
+}
+
+#currSpec2 {
+  background-image: url(https://source.unsplash.com/user/jdsimcoe/GxnyOLTxCr8);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  border: 5px solid #ffffff;
+
+}
+
+#currSpec3 {
+  background-image: url(https://source.unsplash.com/user/hopehousepress/IOzk8YKDhYg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  border: 5px solid #ffffff;
+}
+
+#currSpec4 {
+  background-image: url(https://source.unsplash.com/user/anniespratt/43o1KVbOWXA);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  border: 5px solid #ffffff;
+
+}
+
+.figure-caption {
+  background-color: rgba(81, 78, 94, 0.8);
+  color: #ffffff;
+  height: 100%;
+  border-radius: 5px;
+  padding: 0 3%;
+}
